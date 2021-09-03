@@ -154,7 +154,9 @@
 }
 
 @media(max-width: 768px){
-    
+    .row{
+        margin-top: 0;
+    }
     .col-1{
         margin-top: 0;
     }
@@ -165,7 +167,11 @@
         width:540px;
         height: 420px;
     }
-   
+    .row-1-banner{
+        align-items: center;
+      width: 470px;
+      height: 400px;
+  }
     .row2-head-2{
         max-width: 100%;
         margin-left: auto;
@@ -175,12 +181,11 @@
         max-width: 100%;
     }
     .col1-button{
-        margin-left: 35%;
-        margin-right: 35%;
+        margin-left: 5rem ;
+        margin-bottom: 7rem;
     }
     .sub-title{
-        margin-left: 35%;
-        margin-right: 35%;        
+        margin-left: 5rem;        
     }
     .btn-row-6{
         margin-left: 5rem;
@@ -207,12 +212,15 @@
     }
     .row-1-banner{
         align-items: center;
-      width: 560px;
-      height: 510px;
+      width: 540px;
+      height: 500px;
   }
   .sub-title{
-    margin-left: 38%;
-    margin-right: 35%;
+    margin-left: 11rem;
+  }
+  .col1-button {
+    margin-left: 12rem;
+    margin-bottom: 7rem;
   }
   .offer-button a{
     margin-left: 35%;
@@ -228,6 +236,11 @@
   }
 
 }
-@media (max-width : 767px) {
-  
+
+@media (max-width: 522px) {
+    .sub-title{
+        margin-left: 11rem;    
+        margin-right: 0px;    
+    }
+    
 }

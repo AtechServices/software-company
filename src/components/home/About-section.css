@@ -77,5 +77,20 @@ p{
     .about-content{
         margin-top: 0;
     }
+    .about-img1{
+        width: 470px;
+        height:400px;
+    }
     
+}
+
+@media (max-width: 991px) {
+    .about-img1{
+        width: 540px;
+        height:500px;
+        margin-left: 5rem;
+    }
+    .about-content{
+        margin-top: 2rem;
+    }
 }
