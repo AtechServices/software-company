@@ -129,7 +129,7 @@
     left: 0px;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-image: url('D:/Codectory/codectory-new/src/components/home/gradient-bg.jpg');
+    background-image: url('D:/Github/software-company/src/components/home/gradient-bg.jpg');
 }
 
 .row-6-heading{
@@ -183,8 +183,7 @@
         margin-right: 35%;        
     }
     .btn-row-6{
-        margin-left: 35%;
-        margin-right: 35%;
+        margin-left: 5rem;
     }
     .row6{
         margin-bottom: 5rem;
